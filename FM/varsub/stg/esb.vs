@@ -27,7 +27,7 @@
       <Property propertyName="jndi_automaticallyCreateUMAdminObjects" propertyValue="false"/>
     </Component>
     <Component name="JNDIAlias.GniWKF_BPM_WM_JNDI" type="isjndialias">
-      <Property propertyName="providerURL" propertyValue="nsps://172.26.132.40:9443"/>
+      <Property propertyName="providerURL" propertyValue="nsps://localhost:9443"/>
       <Property propertyName="providerURLFailoverList" propertyValue=""/>
       <Property propertyName="securityPrincipal" propertyValue="srvESBUMS"/>
       <Property propertyName="securityCredentials" propertyValue="xNJyR7NRdJ9L"/>
@@ -43,3 +43,4 @@
     </Component>
   </DeploymentSet>
 </Root>
+
