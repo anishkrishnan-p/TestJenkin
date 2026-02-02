@@ -26,13 +26,7 @@
       <Property propertyName="jndi_connectionFactoryLookupName" propertyValue="GniBPMTaskConfigConnectionFactory"/>
       <Property propertyName="jndi_automaticallyCreateUMAdminObjects" propertyValue="false"/>
     </Component>
-    <Component name="JNDIAlias.GniWKF_BPM_WM_JNDI" type="isjndialias">
-      <Property propertyName="providerURL" propertyValue="nsps://172.26.132.40:9443"/>
-      <Property propertyName="providerURLFailoverList" propertyValue=""/>
-      <Property propertyName="securityPrincipal" propertyValue="srvESBUMS"/>
-      <Property propertyName="securityCredentials" propertyValue="xNJyR7NRdJ9L"/>
-    </Component>
-    <Component name="WebserviceEndpointAlias.Provider.HTTP.WS_ALIAS_PROVIDER_BPM_6582" type="iswebserviceendpointalias">
+   <Component name="WebserviceEndpointAlias.Provider.HTTP.WS_ALIAS_PROVIDER_BPM_6582" type="iswebserviceendpointalias">
       <Property propertyName="host" propertyValue="vmgniwfproject02"/>
       <Property propertyName="port" propertyValue="6582"/>
       <Property propertyName="enable" propertyValue="false"/>
@@ -43,3 +37,4 @@
     </Component>
   </DeploymentSet>
 </Root>
+
